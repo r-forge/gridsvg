@@ -2,6 +2,12 @@
 \title{NEWS file for the gridSVG package}
 \encoding{UTF-8}
 
+\section{Changes in version 1.7-4}{
+  \itemize{
+    \item Fix in \code{feColorMatrix()} for \dQuote{length > 1 in
+      coercion to logical} error.  Thanks to CRAN testing and Brian Ripley!
+  }
+}
 \section{Changes in version 1.7-3}{
   \itemize{
     \item Internal implementation change to avoid assigning values
